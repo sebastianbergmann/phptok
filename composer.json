@@ -1,0 +1,36 @@
+{
+    "name": "sebastian/phptok",
+    "description": "Tool for quickly dumping the tokens of a PHP sourcecode file",
+    "homepage": "https://github.com/sebastianbergmann/phptok",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sebastian Bergmann",
+            "email": "sebastian@phpunit.de",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sebastianbergmann/phptok/issues"
+    },
+    "require": {
+        "php": "~5.4",
+        "phpunit/php-token-stream": "~1.4",
+        "sebastian/version": "~1.0",
+        "symfony/console": "~2.6"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "bin": [
+        "phploc"
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
+
