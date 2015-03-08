@@ -29,7 +29,7 @@ class Application extends AbstractApplication
 {
     public function __construct()
     {
-        $version = new Version('1.0', __DIR__ . '/../');
+        $version = new Version('1.0.0', __DIR__ . '/../');
         parent::__construct('phptok', $version->getVersion());
     }
 
